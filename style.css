@@ -9,13 +9,101 @@
 .header{
     color:white;
 }
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    padding: 0 100px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo{
+    margin: 0 50px;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 0.8em;
+}
+
+.sign-up-btn{
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 10px;
+    
+
+}
+.sign-up-btn a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero p{
+    font-size: 18px;
+
+}
+
+.hero-text{
+    margin: 30px;
+}
 .nav-bar{
     display: flex;
     color: white;
     align-items: center;
+    margin: 0 50px;
 }
 
 a{
     padding: 0 10px;
 }
 
+.hero-text{
+    margin: 50px;
+    width: 30%;
+}
+
+.hero-image p {
+    color:white;
+    background-color:grey;
+    height: 10em;
+    width: 25em;
+    margin: 0 50px;
+}
+
+.random-info{
+    padding: 20px 250px;
+    align-items: center;
+    
+    
+}
+
+.random-info h2{
+    color: #1F2937;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.random-blocks{
+    display: block;
+}
+
+.random-block-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.blue-box{
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 2px;
+    height: 5em;
+    width: 5em;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+.random-block-container p{
+    margin: 0px auto;
+}
